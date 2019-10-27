@@ -1,0 +1,60 @@
+baseurl         = "/"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Example Site"
+  subtitle    = "My Awesome Site"
+
+  cover       = "uploads/header.jpg"
+  description = "Zish's Awesome Example Site"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "Zish"
+  fbName = "Zishh"
+  linkedinName = "zishchiao"
+
+  logo = "hugo-logo.png"
+  orgName = "Health Center"
+  orgWebsite = "https://monthheal.com"
+  orgDescription = "We help people to recover better."
+
+  author = "ZS"
+  authorAvatar = "uploads/doctor_K.png"
+  authorLocation = "China"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Doctor K"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "About us"
+  url = "/tags/about_us/"
+  weight = 100
+
+[[menu.main]]
+  name = "Specialized study"
+  url = "/tags/golang/"
+  weight = 99
+
+[[menu.main]]
+  name = "Contact us"
+  url = "/categories/contact_us/"
+  weight = 98
